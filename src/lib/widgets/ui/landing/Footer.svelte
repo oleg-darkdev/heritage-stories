@@ -1,0 +1,73 @@
+<footer class="footer_wrapper">
+    <div class="page-padding">
+    <div class="container-large">
+        <div class="padding-vertical padding-huge">
+        <div class="footer_component">
+            <div class="div-block-5">
+            <img src="images/618be3a35a416c2f312fe9bf_footer.png" loading="lazy" sizes="(max-width: 767px) 100vw, 30vw" srcset="images/618be3a35a416c2f312fe9bf_footer-p-500.png 500w, images/618be3a35a416c2f312fe9bf_footer.png 574w" alt="" class="image-6">
+            </div>
+            <div id="w-node-cf37bd37-202e-d50d-03a9-bdc76cc61379-82200de9" class="div-block-6">
+            <div class="margin-bottom margin-small">
+                <h6 class="text-size-large is-footer">Feet Solution</h6>
+            </div>
+            <div class="margin-bottom margin-medium">
+                <div class="text-block max-width-small">Pedicuresalon Feet Solution helpt u naar gezonde voeten. Met mijn subtiele zorg, huiselijke sfeer en vakkundige werkwijze, bied ik de beste zorg die past bij uw voeten. Óók op zaterdagen en avonden geopend.</div>
+            </div>
+            <div class="margin-bottom margin-medium is-footer">
+                <a href="https://www.facebook.com/L.Roosenboom" target="_blank" class="margin-right margin-small w-inline-block">
+                <div class="icon-1x1-small w-embed">
+                    <svg aria-hidden="true" role="img" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <title>Facebook icon</title>
+                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path>
+                    </svg>
+                </div>
+                </a>
+                <a href="https://www.instagram.com/feet.solution" target="_blank" class="margin-right margin-small w-inline-block">
+                <div class="icon-1x1-small w-embed">
+                    <svg aria-hidden="true" role="img" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <title>Instagram icon</title>
+                    <path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"></path>
+                    </svg>
+                </div>
+                </a>
+                <a href="tel:+31630812905" class="margin-right margin-small w-inline-block">
+                <div class="icon-1x1-small w-embed">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"></path>
+                    </svg>
+                </div>
+                </a>
+                <a href="https://goo.gl/maps/RimaBtSpZTDD2EwD9" target="_blank" class="margin-right margin-small w-inline-block">
+                <div class="icon-1x1-small w-embed">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M0 0h24v24H0V0z" fill="none"></path>
+                    <path d="M20.5 3l-.16.03L15 5.1 9 3 3.36 4.9c-.21.07-.36.25-.36.48V20.5c0 .28.22.5.5.5l.16-.03L9 18.9l6 2.1 5.64-1.9c.21-.07.36-.25.36-.48V3.5c0-.28-.22-.5-.5-.5zM10 5.47l4 1.4v11.66l-4-1.4V5.47zm-5 .99l3-1.01v11.7l-3 1.16V6.46zm14 11.08l-3 1.01V6.86l3-1.16v11.84z"></path>
+                    </svg>
+                </div>
+                </a>
+            </div>
+            <div class="margin-bottom margin-medium">
+                <div class="margin-right margin-small is-footer">Pedicuresalon Feet Solution ©2022 <br>KVK 84151404 <br>Website by <a href="https://www.aucourant.nl" target="_blank" class="text-style-link">Au Courant</a>
+                </div>
+            </div>
+            </div>
+            <div id="w-node-c0fdcb52-7922-8c7f-37ff-e4cbd9816296-82200de9" class="div-block-15">
+            <div class="margin-bottom margin-small">
+                <h6 class="text-size-large">Menu</h6>
+            </div>
+            <div class="footer_menu">
+                <a href="#about" class="footer_link">Praktijk</a>
+                <a href="#services" class="footer_link">Behandelingen</a>
+                <a href="#products" class="footer_link">Producten</a>
+                <a href="#slider" class="footer_link">Media</a>
+                <a href="#contact" class="footer_link">Contact</a>
+                <a href="https://assets.website-files.com/618694973f27c54a88200de8/618c221cbab1c558c7bd1daf_privacybeleid.pdf" target="_blank" class="footer_link">Privacybeleid</a>
+                <a href="https://assets.website-files.com/618694973f27c54a88200de8/6188e7e2ede0462a8176a12c_algemene-voorwaarden.pdf" target="_blank" class="footer_link">Algemene voorwaarden</a>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+</footer>
