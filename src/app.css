@@ -4520,86 +4520,88 @@ figcaption{
         order:9999
     }
 }
+
+
  @font-face {
      font-family: 'Amabillis';
-     src: url('/fonts/6186cfadf50ce55c8a84b8b6_Amabillis.ttf') format('truetype');
+     src: url('/fonts/amabillis.ttf') format('truetype');
      font-weight: 400;
      font-style: normal;
      font-display: swap;
 }
  @font-face {
      font-family: 'Cabinet Grotesk';
-     src: url('/fonts/6186d009125d3484dbedd7d1_CabinetGrotesk-Thin.ttf') format('truetype');
+     src: url('/fonts/cabinetGrotesk-Thin.ttf') format('truetype');
      font-weight: 100;
      font-style: normal;
      font-display: swap;
 }
  @font-face {
      font-family: 'Cabinet Grotesk';
-     src: url('/fonts/6186d009ede53355fa69a8f0_CabinetGrotesk-Extralight.ttf') format('truetype');
+     src: url('/fonts/cabinetGrotesk-Extralight.ttf') format('truetype');
      font-weight: 200;
      font-style: normal;
      font-display: swap;
 }
  @font-face {
      font-family: 'Cabinet Grotesk';
-     src: url('/fonts/6186d009c654305c32671697_CabinetGrotesk-Light.ttf') format('truetype');
+     src: url('/fonts/cabinetGrotesk-Light.ttf') format('truetype');
      font-weight: 300;
      font-style: normal;
      font-display: swap;
 }
  @font-face {
      font-family: 'Cabinet Grotesk';
-     src: url('/fonts/6186d009ece9f7159aeb329a_CabinetGrotesk-Regular.ttf') format('truetype');
+     src: url('/fonts/cabinetGrotesk-Regular.ttf') format('truetype');
      font-weight: 400;
      font-style: normal;
      font-display: swap;
 }
  @font-face {
      font-family: 'Cabinet Grotesk';
-     src: url('/fonts/6186d0090f73f5ca8228dca0_CabinetGrotesk-Medium.ttf') format('truetype');
+     src: url('/fonts/cabinetGrotesk-Medium.ttf') format('truetype');
      font-weight: 500;
      font-style: normal;
      font-display: swap;
 }
  @font-face {
      font-family: 'Cabinet Grotesk';
-     src: url('/fonts/6186d00921571790d8efb204_CabinetGrotesk-Bold.ttf') format('truetype');
+     src: url('/fonts/cabinetGrotesk-Bold.ttf') format('truetype');
      font-weight: 700;
      font-style: normal;
      font-display: swap;
 }
  @font-face {
      font-family: 'Cabinet Grotesk';
-     src: url('/fonts/6186d009fd950708797eedbb_CabinetGrotesk-Extrabold.ttf') format('truetype');
+     src: url('/fonts/cabinetGrotesk-Extrabold.ttf') format('truetype');
      font-weight: 800;
      font-style: normal;
      font-display: swap;
 }
  @font-face {
      font-family: 'Cabinet Grotesk';
-     src: url('/fonts/6186d00980976a247af375cb_CabinetGrotesk-Black.ttf') format('truetype');
+     src: url('/fonts/cabinetGrotesk-Black.ttf') format('truetype');
      font-weight: 900;
      font-style: normal;
      font-display: swap;
 }
  @font-face {
      font-family: 'Everett';
-     src: url('/fonts/6186d0c9ae899b8cd3d26b96_Everett-Light.otf') format('opentype');
+     src: url('/fonts/everett-Light.otf') format('opentype');
      font-weight: 300;
      font-style: normal;
      font-display: swap;
 }
  @font-face {
      font-family: 'Everett';
-     src: url('/fonts/6186d0ca14b6382aa8ad0e29_Everett-Regular.otf') format('opentype');
+     src: url('/fonts/everett-Regular.otf') format('opentype');
      font-weight: 400;
      font-style: normal;
      font-display: swap;
 }
  @font-face {
      font-family: 'Everett';
-     src: url('/fonts/6186d0ca78a57855888e25dd_Everett-Medium.otf') format('opentype');
+     src: url('/fonts/everett-Medium.otf') format('opentype');
      font-weight: 500;
      font-style: normal;
      font-display: swap;
