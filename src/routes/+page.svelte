@@ -6,12 +6,9 @@
 
 
 <svelte:head>
-  <title>Title</title>
+  <title>Heritage Stories</title>
 </svelte:head>
 
-
-    <!-- <div class="elfsight-app-fdfe09ba-2c24-4a6b-a05f-632367a9ac67" data-elfsight-app-lazy=""></div> -->
-        <!-- <link rel="stylesheet" href="css/swiper-bundle.min.css"> -->
 <div class="page-wrapper">
   <Nav />
 
