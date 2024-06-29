@@ -1,21 +1,26 @@
-<section id="about" class="section-about">
+<section  class="section-about">
     <div class="page-padding">
     <div class="container-large">
         <div class="padding-vertical padding-huge">
         <div class="about_component">
             <div class="about_visual">
-            <img src="images/618e97157b51d976dc34848d_about.png" loading="lazy" alt="" class="about_illustration">
+            <img src="images/about.png" loading="lazy" alt="" class="about_illustration">
             </div>
             <div class="about_content">
             <div class="margin-bottom margin-medium">
                 <div class="text-style-quote">
-                <span class="text-size-large is-quote">Lisanne Roosenboom</span>
+                <span class="text-size-large is-quote">
+                    <!-- a href -->
+                    Oleg Medvedev
+                </span>
                 <br>
                 <span class="text-size-medium">Eigenaresse</span>
                 </div>
             </div>
             <div class="margin-bottom margin-xlarge">
-                <div class="text-size-medium">Mijn naam is Lisanne en ik ben 33 jaar. Ik woon samen met mijn gezin in Almere Haven. Ik ben gediplomeerd en heb sinds 18 oktober 2021 mijn eigen salon in ons huis. Ik wilde al een lange tijd pedicure worden want <strong>ik help graag mensen met hun voetproblemen.</strong> Mijn doel is om zoveel mogelijk personen weer klachtenvrij uit mijn salon te laten komen. </div>
+                <div class="text-size-medium">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    <strong> Lorem Ipsum has been the industry's </strong> standard dummy text ever since the 1500s.  </div>
             </div>
             <div class="benefits-list margin-bottom margin-medium">
                 <div class="margin-bottom margin-medium">
@@ -34,7 +39,7 @@
                         </svg>
                     </div>
                     </div>
-                    <div class="text-size-medium">Altijd eerlijk en transparant</div>
+                    <div class="text-size-medium">Lorem Ipsum is simply dummy text of the</div>
                 </div>
                 </div>
                 <div class="margin-bottom margin-medium">
@@ -48,7 +53,7 @@
                         </svg>
                     </div>
                     </div>
-                    <div class="text-size-medium">Specialist in het vakgebied</div>
+                    <div class="text-size-medium">Lorem Ipsum is simply dummy text of the</div>
                 </div>
                 </div>
                 <div class="margin-bottom margin-medium">
@@ -66,7 +71,7 @@
                         </svg>
                     </div>
                     </div>
-                    <div class="text-size-medium">Huiselijke warme sfeer</div>
+                    <div class="text-size-medium">Lorem Ipsum is simply dummy text of the</div>
                 </div>
                 </div>
                 <div class="margin-bottom margin-xlarge">
@@ -78,10 +83,10 @@
                         </svg>
                     </div>
                     </div>
-                    <div class="text-size-medium">ProVoet gediplomeerd</div>
+                    <div class="text-size-medium">Lorem Ipsum is simply dummy text of the</div>
                 </div>
                 </div>
-                <img src="images/63d042846e6e74b3642f6974_provoet.svg" loading="lazy" alt="" class="logo-provoet">
+                <img src="images/logos/heritage-stories.svg" loading="lazy" alt="Logo Heritage stories boardgame" class="logo-heritage">
             </div>
             </div>
         </div>
