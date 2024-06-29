@@ -2219,7 +2219,7 @@ figcaption{
     max-width:12rem
 }
 .page-wrapper{
-    background-image:url(/images/61881e18ede0469c0f720ad9_header.svg);
+    background-image:url(/images/header.svg);
     background-position:100% -2%;
     background-repeat:no-repeat;
     background-size:50%
@@ -2779,7 +2779,7 @@ figcaption{
     grid-row-gap:16px;
     color:#fff;
     background-color:#895346;
-    background-image:linear-gradient(rgba(137,83,70,.66),rgba(137,83,70,.66)),url(/images/618e6f24639af968a71f7320_feet.png);
+    background-image:linear-gradient(rgba(137,83,70,.66),rgba(137,83,70,.66)),url(/images/feet.png);
     background-position:0 0,50%;
     background-repeat:repeat,repeat;
     background-size:auto,254px;
@@ -2855,7 +2855,7 @@ figcaption{
 .div-block-3{
     width:100%;
     height:100%;
-    background-image:url(/images/61880c3a47f9d21a58542144_contact.png);
+    background-image:url(/images/contact.png);
     background-position:100% -80%;
     background-repeat:no-repeat;
     background-size:auto 100%
