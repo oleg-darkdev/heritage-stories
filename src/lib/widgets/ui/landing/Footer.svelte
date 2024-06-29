@@ -1,17 +1,55 @@
+<script>
+    const footerLinks = [
+        {
+            title: 'Lorem Ipsum',
+            href: '/'
+        },
+        {
+            title: 'Lorem Ipsum',
+            href: '/'
+        },
+        {
+            title: 'Lorem Ipsum',
+            href: '/'
+        },
+        {
+            title: 'Lorem Ipsum',
+            href: '/'
+        },
+        {
+            title: 'Lorem Ipsum',
+            href: '/'
+        },
+        {
+            title: 'Lorem Ipsum',
+            href: '/'
+        },
+        {
+            title: 'Lorem Ipsum',
+            href: '/'
+        },
+        {
+            title: 'Lorem Ipsum',
+            href: '/'
+        },
+    ]
+</script>
+
 <footer class="footer_wrapper">
     <div class="page-padding">
     <div class="container-large">
         <div class="padding-vertical padding-huge">
         <div class="footer_component">
             <div class="div-block-5">
-            <img src="images/618be3a35a416c2f312fe9bf_footer.png" loading="lazy" sizes="(max-width: 767px) 100vw, 30vw" srcset="images/618be3a35a416c2f312fe9bf_footer-p-500.png 500w, images/618be3a35a416c2f312fe9bf_footer.png 574w" alt="" class="image-6">
+            <img src="images/footerImg.svg" loading="lazy" sizes="(max-width: 767px) 100vw, 30vw" alt="Footer image" class="image-6">
             </div>
             <div id="w-node-cf37bd37-202e-d50d-03a9-bdc76cc61379-82200de9" class="div-block-6">
             <div class="margin-bottom margin-small">
-                <h6 class="text-size-large is-footer">Feet Solution</h6>
+                <h6 class="text-size-large is-footer">Lorem Ipsum is</h6>
             </div>
             <div class="margin-bottom margin-medium">
-                <div class="text-block max-width-small">Pedicuresalon Feet Solution helpt u naar gezonde voeten. Met mijn subtiele zorg, huiselijke sfeer en vakkundige werkwijze, bied ik de beste zorg die past bij uw voeten. Óók op zaterdagen en avonden geopend.</div>
+                <div class="text-block max-width-small">
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.                </div>
             </div>
             <div class="margin-bottom margin-medium is-footer">
                 <a href="https://www.facebook.com/L.Roosenboom" target="_blank" class="margin-right margin-small w-inline-block">
@@ -30,14 +68,6 @@
                     </svg>
                 </div>
                 </a>
-                <a href="tel:+31630812905" class="margin-right margin-small w-inline-block">
-                <div class="icon-1x1-small w-embed">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"></path>
-                    </svg>
-                </div>
-                </a>
                 <a href="https://goo.gl/maps/RimaBtSpZTDD2EwD9" target="_blank" class="margin-right margin-small w-inline-block">
                 <div class="icon-1x1-small w-embed">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
@@ -48,22 +78,19 @@
                 </a>
             </div>
             <div class="margin-bottom margin-medium">
-                <div class="margin-right margin-small is-footer">Pedicuresalon Feet Solution ©2022 <br>KVK 84151404 <br>Website by <a href="https://www.aucourant.nl" target="_blank" class="text-style-link">Au Courant</a>
+                <div class="margin-right margin-small is-footer">
+                    Lorem impsum ©2024 <br> Lorem impsum <br>Website by <a href="/" target="_blank" class="text-style-link">Lorem impsum</a>
                 </div>
             </div>
             </div>
-            <div id="w-node-c0fdcb52-7922-8c7f-37ff-e4cbd9816296-82200de9" class="div-block-15">
+            <div  class="div-block-15">
             <div class="margin-bottom margin-small">
                 <h6 class="text-size-large">Menu</h6>
             </div>
             <div class="footer_menu">
-                <a href="#about" class="footer_link">Praktijk</a>
-                <a href="#services" class="footer_link">Behandelingen</a>
-                <a href="#products" class="footer_link">Producten</a>
-                <a href="#slider" class="footer_link">Media</a>
-                <a href="#contact" class="footer_link">Contact</a>
-                <a href="https://assets.website-files.com/618694973f27c54a88200de8/618c221cbab1c558c7bd1daf_privacybeleid.pdf" target="_blank" class="footer_link">Privacybeleid</a>
-                <a href="https://assets.website-files.com/618694973f27c54a88200de8/6188e7e2ede0462a8176a12c_algemene-voorwaarden.pdf" target="_blank" class="footer_link">Algemene voorwaarden</a>
+                {#each footerLinks as link}
+                <a href="{link.href}" class="footer_link">{link.title}</a>
+                {/each}
             </div>
             </div>
         </div>
