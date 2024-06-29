@@ -1,3 +1,28 @@
+<script>
+  const slides = [
+   {
+     img: 'https://wallpaperset.com/w/full/c/9/0/522708.jpg',
+    altText: 'lorem impsum'
+   },
+   {
+     img: 'https://wallpaperset.com/w/full/c/9/0/522708.jpg',
+    altText: 'lorem impsum'
+   },
+   {
+     img: 'https://wallpaperset.com/w/full/c/9/0/522708.jpg',
+    altText: 'lorem impsum'
+   },
+   {
+     img: 'https://wallpaperset.com/w/full/c/9/0/522708.jpg',
+    altText: 'lorem impsum'
+   },
+   {
+     img: 'https://wallpaperset.com/w/full/c/9/0/522708.jpg',
+    altText: 'lorem impsum'
+   },
+  ]
+</script>
+
 <section id="slider" class="section-slider">
           <section class="section-2 is--slider">
             <div class="slider__wave w-embed">
@@ -9,18 +34,11 @@
               <div class="splide">
                 <div class="splide__track w-dyn-list">
                   <div role="list" class="splide__list w-dyn-items">
+                    {#each slides as slide}
                     <div role="listitem" class="splide__slide w-dyn-item">
-                      <img src="images/61964a2857985f467b7d3daa__MG_0394-min.JPG" loading="lazy" alt="Slide 4" sizes="(max-width: 479px) 100vw, (max-width: 767px) 88vw, 28vw" srcset="images/61964a2857985f467b7d3daa__MG_0394-min-p-1080.jpeg 1080w, images/61964a2857985f467b7d3daa__MG_0394-min-p-1600.jpeg 1600w, images/61964a2857985f467b7d3daa__MG_0394-min-p-2000.jpeg 2000w, images/61964a2857985f467b7d3daa__MG_0394-min-p-2600.jpeg 2600w, images/61964a2857985f467b7d3daa__MG_0394-min-p-3200.jpeg 3200w, images/61964a2857985f467b7d3daa__MG_0394-min.JPG 5184w" class="splide__img">
+                      <img src="{slide.img}" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 88vw, 28vw" alt='{slide.altText}' class="splide__img">
                     </div>
-                    <div role="listitem" class="splide__slide w-dyn-item">
-                      <img src="images/6196984cb1b139b0060ddd9a__MG_0422-min.JPG" loading="lazy" alt="Slide 3" sizes="(max-width: 479px) 100vw, (max-width: 767px) 88vw, 28vw" srcset="images/6196984cb1b139b0060ddd9a__MG_0422-min-p-800.jpeg 800w, images/6196984cb1b139b0060ddd9a__MG_0422-min-p-1080.jpeg 1080w, images/6196984cb1b139b0060ddd9a__MG_0422-min-p-1600.jpeg 1600w, images/6196984cb1b139b0060ddd9a__MG_0422-min-p-2000.jpeg 2000w, images/6196984cb1b139b0060ddd9a__MG_0422-min-p-2600.jpeg 2600w, images/6196984cb1b139b0060ddd9a__MG_0422-min.JPG 2671w" class="splide__img">
-                    </div>
-                    <div role="listitem" class="splide__slide w-dyn-item">
-                      <img src="images/61964d415f4a632786cb2dd7__MG_0447-min.JPG" loading="lazy" alt="Slide 2" sizes="(max-width: 479px) 100vw, (max-width: 767px) 88vw, 28vw" srcset="images/61964d415f4a632786cb2dd7__MG_0447-min-p-500.jpeg 500w, images/61964d415f4a632786cb2dd7__MG_0447-min-p-1080.jpeg 1080w, images/61964d415f4a632786cb2dd7__MG_0447-min-p-2000.jpeg 2000w, images/61964d415f4a632786cb2dd7__MG_0447-min-p-2600.jpeg 2600w, images/61964d415f4a632786cb2dd7__MG_0447-min-p-3200.jpeg 3200w, images/61964d415f4a632786cb2dd7__MG_0447-min.JPG 4392w" class="splide__img">
-                    </div>
-                    <div role="listitem" class="splide__slide w-dyn-item">
-                      <img src="images/618be07d82b532f6aa1b475a_Image%20from%20iOS.jpg" loading="lazy" alt="Slide 1" sizes="(max-width: 479px) 100vw, (max-width: 767px) 88vw, 28vw" srcset="images/618be07d82b532f6aa1b475a_Image%20from%20iOS-p-1080.jpeg 1080w, images/618be07d82b532f6aa1b475a_Image%20from%20iOS.jpg 1440w" class="splide__img">
-                    </div>
+                    {/each}
                   </div>
                 </div>
               </div>
