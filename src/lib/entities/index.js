@@ -1,4 +1,5 @@
-// import FactSheet from './ui/landing/FactSheet.svelte';
+import ScenarionCard from './ui/landing/ScenarionCard.svelte';
+import FaqCard from './ui/landing/FaqCard.svelte';
 
 
-// export { FactSheet };
+export { ScenarionCard, FaqCard };
