@@ -11,8 +11,9 @@
 		<div>
       
 			<!--  of voor <strong>Loewn</strong> -->
-      {#each scenario.desc as desc}<p>{desc}</p>{/each}
+      <p>{scenario.desc}</p>
+      <!-- {#each scenario.desc as desc}<p>{desc}</p>{/each} -->
 		</div>
 	</div>
-	<a href="/" class="button w-button">{scenario.country}</a>
+	<!-- <a href="/" class="button w-button">{scenario.country}</a> -->
 </div>
