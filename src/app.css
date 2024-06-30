@@ -2216,7 +2216,7 @@ figcaption{
     max-width:12rem
 }
 .page-wrapper{
-    background-image:url(/images/header.svg);
+    background-image:url(/images/header.png);
     background-position:100% -2%;
     background-repeat:no-repeat;
     background-size:50%
@@ -2755,17 +2755,7 @@ figcaption{
 .about_visual{
     /* z-index:-1 */
 }
-.benefits-list.is-products{
-    height:250px;
-    color:#fff;
-    background-color:#895346;
-    border-radius:20px;
-    grid-template-rows:auto;
-    grid-template-columns:1fr .5fr;
-    grid-auto-columns:1fr;
-    padding:25px;
-    display:flex
-}
+
 .about_illustration{
     /* z-index:-1; */
     width:40rem
