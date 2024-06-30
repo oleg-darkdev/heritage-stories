@@ -1,25 +1,30 @@
 <script>
   const slides = [
    {
-     img: 'https://wallpaperset.com/w/full/c/9/0/522708.jpg',
+     img: '/images/scenarios/italy.svg',
     altText: 'lorem impsum'
    },
    {
-     img: 'https://wallpaperset.com/w/full/c/9/0/522708.jpg',
+     img: '/images/scenarios/india.svg',
     altText: 'lorem impsum'
    },
    {
-     img: 'https://wallpaperset.com/w/full/c/9/0/522708.jpg',
+     img: '/images/scenarios/russia.svg',
     altText: 'lorem impsum'
    },
    {
-     img: 'https://wallpaperset.com/w/full/c/9/0/522708.jpg',
+     img: '/images/scenarios/uk.svg',
     altText: 'lorem impsum'
    },
    {
-     img: 'https://wallpaperset.com/w/full/c/9/0/522708.jpg',
+     img: '/images/scenarios/france.svg',
     altText: 'lorem impsum'
    },
+   {
+     img: '/images/scenarios/germany.svg',
+    altText: 'lorem impsum'
+   },
+
   ]
 </script>
 
