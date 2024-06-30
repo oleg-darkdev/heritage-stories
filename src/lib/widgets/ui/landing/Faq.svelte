@@ -40,7 +40,7 @@ const faqData = [
 ]
 </script>
 
-<section id="faq"  class="section-faq">
+<section class="section-faq">
           <div class="page-padding">
             <div class="container-large">
               <div class="padding-vertical padding-huge">
@@ -49,6 +49,9 @@ const faqData = [
                     <div class="margin-bottom margin-medium">
                       <h2 class="faq_title">frequently asked <span class="text-style-link">questions.</span>
                       </h2>
+
+                      <a name='faq' /> 
+
                     </div>
                     {#each faqData as faq}
                       <FaqCard {faq}/>
