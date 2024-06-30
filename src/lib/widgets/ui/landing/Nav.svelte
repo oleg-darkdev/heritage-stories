@@ -1,24 +1,24 @@
 <script>
 	const links = [
 		{
-			title: 'Lorem Ipsum ',
-			href: '/'
+			title: 'App',
+			href: '/app'
 		},
 		{
-			title: 'Lorem Ipsum ',
-			href: '/'
+			title: 'Features',
+			href: '#features'
 		},
 		{
-			title: 'Lorem Ipsum ',
-			href: '/'
+			title: 'Scenarios',
+			href: '#scenarios'
 		},
 		{
-			title: 'Lorem Ipsum ',
-			href: '/'
+			title: 'F.A.Q.',
+			href: '#faq'
 		},
 		{
-			title: 'Lorem Ipsum ',
-			href: '/'
+			title: 'Contact',
+			href: '#contact'
 		},
 
 	]
