@@ -52,8 +52,8 @@
 
 
         <div class="slider-wrapper w-dyn-list">
-          <div role="list" class="slider-list w-dyn-items"> {#each otherBoardgames as boardgame}
-                    
+          <div role="list" class="slider-list w-dyn-items"> 
+            {#each otherBoardgames as boardgame}                    
 							<div role="listitem" class="slider-item w-dyn-item">
 								<div class="div-block-9">
 									<img src="{boardgame.img}" loading="lazy" alt="Ureum crème" sizes="(max-width: 479px) 100vw, (max-width: 767px) 95vw, (max-width: 991px) 45vw, 46vw" class="image-7">
@@ -63,13 +63,13 @@
 										<p class="text-size-medium is-product">{boardgame.desc}</p>
 									</div>
 								</div>
-                    {/each}
+            {/each}
                   
                   
 							</div>
 						</div>
-						<div class="slider-navigation-wrapper">
-							<div class="controls">
+						<div class=" ">
+							<div class="mt-6 controls-otherboardgames">
 								<a href="#" class="control slider-navigation prev-slide w-inline-block">
 									<div class="control__fill"></div>
 									<div class="control__arrow w-embed">
@@ -99,3 +99,17 @@
 			</div>
 		</section>
         
+
+
+    <style>
+      .controls-otherboardgames {
+    z-index:4;
+    width:13em;
+    justify-content:center;
+    align-items:center;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+
+}
+    </style>
