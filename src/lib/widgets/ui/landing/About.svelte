@@ -24,7 +24,6 @@
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                     <strong> Lorem Ipsum has been the industry's </strong> standard dummy text ever since the 1500s.  </div>
             </div>
-        <img src="images/logos/heritage-stories.svg" loading="lazy" alt="Logo Heritage stories boardgame" class="logo-heritage">
             
             </div>
 
