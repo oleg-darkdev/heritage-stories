@@ -81,3 +81,22 @@
             </div>
           </section>
         </section>
+
+
+        <style>
+
+.controls{
+    z-index:4;
+    width:13em;
+    justify-content:center;
+    align-items:center;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    position:absolute;
+    top:auto;
+    bottom:0%;
+    left:0%;
+    right:0%
+}
+</style>
