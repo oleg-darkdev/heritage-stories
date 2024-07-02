@@ -1,39 +1,7 @@
 <script>
-    const footerLinks = [
-        {
-            title: 'Lorem Ipsum',
-            href: '/'
-        },
-        {
-            title: 'Lorem Ipsum',
-            href: '/'
-        },
-        {
-            title: 'Lorem Ipsum',
-            href: '/'
-        },
-        {
-            title: 'Lorem Ipsum',
-            href: '/'
-        },
-        {
-            title: 'Lorem Ipsum',
-            href: '/'
-        },
-        {
-            title: 'Lorem Ipsum',
-            href: '/'
-        },
-        {
-            title: 'Lorem Ipsum',
-            href: '/'
-        },
-        {
-            title: 'Lorem Ipsum',
-            href: '/'
-        },
-    ]
+	import {navigation} from '$shared';
 </script>
+
 
 <footer class="footer_wrapper">
     <div class="page-padding">
@@ -45,11 +13,12 @@
             </div>
             <div id="w-node-cf37bd37-202e-d50d-03a9-bdc76cc61379-82200de9" class="div-block-6">
             <div class="margin-bottom margin-small">
-                <h6 class="text-size-large is-footer">Lorem Ipsum is</h6>
+                <h6 class="text-size-large is-footer">THE Heritage Stories</h6>
             </div>
             <div class="margin-bottom margin-medium">
                 <div class="text-block max-width-small">
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.                </div>
+                  Educational boardgame, enhanced by an interactive web application, about eco-friendly bicycle trip through the World Heritage Cities.
+              </div>
             </div>
             <div class="margin-bottom margin-medium is-footer">
                 <a href="https://www.facebook.com/L.Roosenboom" target="_blank" class="margin-right margin-small w-inline-block">
@@ -79,16 +48,16 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
             </div>
             <div class="margin-bottom margin-medium">
                 <div class="margin-right margin-small is-footer">
-                    Lorem impsum ©2024 <br> Lorem impsum <br>Website by <a href="/" target="_blank" class="text-style-link">Lorem impsum</a>
+                    Lorem impsum ©2024 <br>  <br>Website by <a href="https://darkdev-foundation.vercel.app/" target="_blank" class="text-style-link">DarkDev.Foundation</a>
                 </div>
             </div>
             </div>
             <div  class="div-block-15">
             <div class="margin-bottom margin-small">
-                <h6 class="text-size-large">Menu</h6>
+                <h6 class="text-size-large">Navigation</h6>
             </div>
             <div class="footer_menu">
-                {#each footerLinks as link}
+                {#each navigation as link}
                 <a href="{link.href}" class="footer_link">{link.title}</a>
                 {/each}
             </div>
