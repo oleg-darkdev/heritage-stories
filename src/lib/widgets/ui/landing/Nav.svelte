@@ -1,27 +1,5 @@
 <script>
-	const links = [
-		{
-			title: 'App',
-			href: '/app'
-		},
-		{
-			title: 'Features',
-			href: '#features'
-		},
-		{
-			title: 'Scenarios',
-			href: '#scenarios'
-		},
-		{
-			title: 'F.A.Q.',
-			href: '#faq'
-		},
-		{
-			title: 'Contact',
-			href: '#contact'
-		},
-
-	]
+	import {navigation} from '$shared';
 </script>
 
 <section class="nav_wrapper">
@@ -63,7 +41,7 @@
 			</a>
 			<nav role="navigation" class="nav_menu w-nav-menu">
 				<div class="div-block-4">
-					{#each links as link}
+					{#each navigation as link}
 						<a href="{link.href}" class="nav_link w-nav-link">{link.title}</a>
 					{/each}
 				</div>
@@ -79,3 +57,75 @@
 	</div>
 	<div class="nav_blank-space" />
 </section>
+
+
+<style>
+.nav_menu{
+    align-items:center;
+    font-weight:600;
+    display:flex
+}
+
+.nav_menu-icon{
+    width:50px;
+    height:50px;
+    cursor:pointer;
+    flex-direction:column;
+    justify-content:center;
+    padding:12px 8px 8px;
+    display:flex;
+    overflow:hidden
+}
+.nav_menu-icon-bar{
+    width:100%;
+    height:2px;
+    background-color:#000;
+    margin-bottom:6px
+}
+
+@media screen and (max-width:991px){
+    .nav_menu{
+		display: none;
+        /* z-index:2147483647;
+        width:100vw;
+        height:100vh;
+        background-color:#ffecd9;
+        justify-content:center;
+        align-items:center;
+        top:0%;
+        bottom:0%;
+        left:0%;
+        right:0% */
+    }
+
+	.nav_menu-button{
+        width:50px;
+        height:50px;
+        background-color:#a56354;
+        border:2px #452d27;
+        border-radius:100%;
+        flex-direction:row;
+        justify-content:center;
+        align-items:center;
+        padding:0;
+        position:relative
+    }
+    .nav_menu-button.w--open{
+        z-index:999;
+        color:#fff;
+        background-color:#452d27;
+        border-style:none
+    }
+
+    .nav_menu-icon{
+        width:100%;
+        height:100%;
+        padding-left:12px;
+        padding-right:12px
+    }
+    .nav_menu-icon-bar{
+        background-color:#fff;
+        margin-bottom:6px
+    }
+}
+</style>
