@@ -12,12 +12,6 @@
     anchor: '#archaeo-stories',
     desc: `Archaeo stories - educational boardgame, enhanced by an interactive web application, offers you to explore ancient grounds, unearth artifacts, and  become a real archaeologist! `
   }, {
-    title: 'HERITAGE-STORIES',
-    img: '/images/boardgames/heritage-stories.svg',
-    link: '/',
-    anchor: '#heritage-stories',
-    desc: `Heritage stories - educational boardgame, enhanced by an interactive web application, about eco-friendly bicycle trip through the World Heritage Cities.`
-  }, {
     title: 'CASTLE-STORIES',
     img: '/images/boardgames/castle-stories.svg',
     link: '/',
