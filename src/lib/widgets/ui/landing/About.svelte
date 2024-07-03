@@ -21,8 +21,22 @@
             </div>
             <div class="margin-bottom margin-xlarge">
                 <div class="text-size-medium">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    <strong> Lorem Ipsum has been the industry's </strong> standard dummy text ever since the 1500s.  </div>
+
+                    <p class='mb-2'>                      
+                        Product Web Engineer-IT Enthusiast, Gamification Coach, and JavaScript Programmer with  across various technologies,
+                      <strong> 4 years of experience in board game development and 3 years in web application development </strong>  including startups and open-source projects. See my open sorce projects are available on <strong><a class='text-style-link text-[#713f13]' href='https://github.com/oleg-darkdev' target="_blank">github profile.</a></strong>
+                    </p>
+                    <p class='mb-2'>
+                       Engaged in merging the digital and physical worlds to create engaging and educational experiences. Сollaborated with several 
+                      <strong> NGOs and museums in Belarus and Poland </strong>   on various historical projects. 
+                    </p>
+                    <p class='mb-2'>
+                        See my other historical projects and educational board games that <strong>combine history and modern technologies in my <a class='text-style-link text-[#713f13]' href='href="https://oleg-darkdev.vercel.app/' target="_blank"> portfolio.</a></strong>
+                    </p>              
+                    <p class='mb-2'>
+                      In head with a love for technologies, in heart with a love for people 💛 
+                    </p>  
+                  </div>
             </div>
             
             </div>
