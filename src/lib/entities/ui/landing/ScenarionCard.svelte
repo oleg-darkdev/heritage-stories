@@ -17,3 +17,18 @@
 	</div>
 	<!-- <a href="/" class="button w-button">{scenario.country}</a> -->
 </div>
+
+
+<style>
+.service_item{
+    color:#fff;
+    background-color:#713f13;
+    border-radius:50px;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:flex-start;
+    padding:40px;
+    display:flex
+}
+
+</style>

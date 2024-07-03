@@ -69,7 +69,7 @@
   .benefits-list.is-products{
       height: 300px;
       color:#fff;
-      background-color:#895346;
+      background-color:#713f13;
       border-radius:20px;
       grid-template-rows:auto;
       grid-template-columns:1fr .5fr;
