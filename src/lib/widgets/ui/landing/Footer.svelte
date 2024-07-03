@@ -11,7 +11,7 @@
             <div class="div-block-5">
             <img src="images/footerImg.svg" loading="lazy" sizes="(max-width: 767px) 100vw, 30vw" alt="Footer image" class="image-6">
             </div>
-            <div id="w-node-cf37bd37-202e-d50d-03a9-bdc76cc61379-82200de9" class="div-block-6">
+            <div  class="div-block-6">
             <div class="margin-bottom margin-small">
                 <h6 class="text-size-large is-footer">THE Heritage Stories</h6>
             </div>
@@ -21,7 +21,7 @@
               </div>
             </div>
             <div class="margin-bottom margin-medium is-footer">
-                <a href="https://www.facebook.com/L.Roosenboom" target="_blank" class="margin-right margin-small w-inline-block">
+                <a href="/" target="_blank" class="margin-right margin-small w-inline-block">
                 <div class="icon-1x1-small w-embed">
                     <svg aria-hidden="true" role="img" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <title>Facebook icon</title>
@@ -29,7 +29,7 @@
                     </svg>
                 </div>
                 </a>
-                <a href="https://www.instagram.com/feet.solution" target="_blank" class="margin-right margin-small w-inline-block">
+                <a href="/" target="_blank" class="margin-right margin-small w-inline-block">
                 <div class="icon-1x1-small w-embed">
                     <svg aria-hidden="true" role="img" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <title>Instagram icon</title>
@@ -37,7 +37,7 @@
                     </svg>
                 </div>
                 </a>
-                <a href="https://goo.gl/maps/RimaBtSpZTDD2EwD9" target="_blank" class="margin-right margin-small w-inline-block">
+                <a href="/" target="_blank" class="margin-right margin-small w-inline-block">
                 <div class="icon-1x1-small w-embed">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M0 0h24v24H0V0z" fill="none"></path>
@@ -48,7 +48,10 @@
             </div>
             <div class="margin-bottom margin-medium">
                 <div class="margin-right margin-small is-footer">
-                    Lorem impsum ©2024 <br>  <br>Website by <a href="https://darkdev-foundation.vercel.app/" target="_blank" class="text-style-link">DarkDev.Foundation</a>
+                    Lorem impsum ©2024
+                    <br>
+                    <br>
+                    Website development by <a href="https://oleg-darkdev.vercel.app/" target="_blank" class="text-style-link">Oleg_DarkDEV</a>
                 </div>
             </div>
             </div>
@@ -58,7 +61,7 @@
             </div>
             <div class="footer_menu">
                 {#each navigation as link}
-                <a href="{link.href}" class="footer_link">{link.title}</a>
+                  <a href="{link.href}" class="footer_link">{link.title}</a>
                 {/each}
             </div>
             </div>
@@ -67,3 +70,47 @@
     </div>
     </div>
 </footer>
+
+
+<style>
+  .footer_component{
+      width:100%;
+      grid-column-gap:16px;
+      grid-row-gap:16px;
+      color:#fff;
+      background-color:#713f13;
+      /* #713f13 */
+      /*       background-image:linear-gradient(rgba(137,83,70,.66),rgba(137,83,70,.66)),url(/images/feet.png);
+ */
+
+ /*  */
+      background-image: linear-gradient(90deg, rgba(69,45,39,.66) 0%, rgba(113,63,19,.66) 91%),url(/images/heritage_random.svg);
+      /* background-image: linear-gradient(130deg, rgba(202,139,12,.66) 0%, rgba(113,63,19,.66) 40%),url(/images/heritage_random.svg); */
+      background-position:0 0,50%;
+      background-repeat:repeat,repeat;
+      background-size:auto,254px;
+      background-attachment:scroll,scroll;
+      border-radius:50px;
+      grid-template-rows:auto;
+      grid-template-columns:1fr 1fr 1fr;
+      grid-auto-columns:1fr;
+      padding-top:4rem;
+      padding-bottom:4rem;
+      display:grid
+  }
+  .footer_wrapper{
+      position:relative
+  }
+  .footer_menu{
+      flex-direction:column;
+      display:flex
+  }
+  .footer_link{
+      color:#ffecd9;
+      margin-bottom:15px
+  }
+  .footer_link.w--current{
+      padding-top:5px;
+      padding-bottom:5px
+  }
+</style>
