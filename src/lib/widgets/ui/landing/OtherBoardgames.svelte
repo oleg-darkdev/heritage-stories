@@ -28,7 +28,7 @@
     img: '/images/boardgames/pyramid-stories.svg',
     link: '/',
     anchor: '#pyramid-stories',
-    desc: ``
+    desc: `Explore the Kolskaya ultra-deep borehole, one of the deepest man-made facilities on the planet, drilled to a record depth of 12,262 meters. Discover a symbol of scientific and technical progress that has provided unique data for geological and geophysical research and generated many myths and legends and it's been called "the well to Hell."`
   }, {
     title: 'Belarus/Poland-STORIES',
     img: '/images/boardgames/by-pl-stories.svg',
@@ -36,35 +36,44 @@
     anchor: '#12262-stories',
     desc: `"Cultures of Belarus and Poland" - through the materials prepared as part of this project, you will learn more about the relationship between these two neighboring countries, their history, culture and traditions.`
   }];
+
+
+  let step = 0;
+const prevBoardgame = () => step > 0 ? step-- : step;
+const nextBoardgame = () => step <= otherBoardgames.length - 2 ? step++ : step;
+
+
+  $: actualBoardgame = otherBoardgames[step];
 </script>
 <section class="section-products">
   <div class="page-padding">
     <div class="container-large">
       <div class="padding-vertical padding-huge">
-        
-        
+
+
 
 
         <div class="slider-wrapper w-dyn-list">
-          <div role="list" class="slider-list w-dyn-items"> 
-            {#each otherBoardgames as boardgame}                    
+          <div role="list" class="slider-list w-dyn-items">
+            <!-- {#each otherBoardgames as boardgame} -->
 							<div role="listitem" class="slider-item w-dyn-item">
 								<div class="div-block-9">
-									<img src="{boardgame.img}" loading="lazy" alt="Ureum crème" sizes="(max-width: 479px) 100vw, (max-width: 767px) 95vw, (max-width: 991px) 45vw, 46vw" class="image-7">
+									<img src="{actualBoardgame.img}" loading="lazy" alt="Ureum crème" sizes="(max-width: 479px) 100vw, (max-width: 767px) 95vw, (max-width: 991px) 45vw, 46vw" class="image-7">
 									</div>
 									<div class="div-block-13">
-										<h3 class="heading-large margin-bottom margin-medium">{boardgame.title}</h3>
-										<p class="text-size-medium is-product">{boardgame.desc}</p>
+										<h3 class="heading-large margin-bottom margin-medium">{actualBoardgame.title}</h3>
+										<p class="text-size-medium is-product">{actualBoardgame.desc}</p>
 									</div>
 								</div>
-            {/each}
-                  
-                  
+            <!-- {/each} -->
+
+
 							</div>
 						</div>
 						<div class=" ">
 							<div class="mt-6 controls-otherboardgames">
-								<a href="#" class="control slider-navigation prev-slide w-inline-block">
+                {#if step > 0}
+								<button on:click={()=> prevBoardgame()} class="control slider-navigation prev-slide w-inline-block">
 									<div class="control__fill"></div>
 									<div class="control__arrow w-embed">
 										<svg version="1.1" id="Layer_1"
@@ -74,8 +83,10 @@
 	l-0.218,0.976C8.03,11.787,9.9,17.844,9.976,18.101l1.922-0.554C11.83,17.31,10.49,12.91,5.481,10h18.518V8z"></path>
 										</svg>
 									</div>
-								</a>
-								<a href="#" class="control slider-navigation next-slide w-inline-block">
+								</button>
+                {/if}
+                {#if step < otherBoardgames.length - 1}
+								<button  on:click={()=> nextBoardgame()} class="control slider-navigation next-slide w-inline-block">
 									<div class="control__fill"></div>
 									<div class="control__arrow is--flipped w-embed">
 										<svg version="1.1" id="Layer_1"
@@ -85,14 +96,15 @@
 	l-0.218,0.976C8.03,11.787,9.9,17.844,9.976,18.101l1.922-0.554C11.83,17.31,10.49,12.91,5.481,10h18.518V8z"></path>
 										</svg>
 									</div>
-								</a>
+								</button>
+                {/if}
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-        
+
 
 
     <style>
