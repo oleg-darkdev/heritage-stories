@@ -6,7 +6,7 @@
 	.st0{fill:#EFECE5;}
 	.st1{fill:#CA8B0C;}
 	.st2{fill:#714014;}
-	.st3{clip-path:url(#SVGID_00000160160206518341542040000012662834273259763338_);}
+	.st3{clip-path:url(#SVGID_00000029754411126252378490000013524497242585933205_);}
 </style>
 <image style="overflow:visible;enable-background:new    ;" width="1010" height="1028" xlink:href="about.png"  transform="matrix(0.9193 0 0 0.9193 -1586.6338 134.2672)">
 </image>
@@ -67,13 +67,10 @@
 				c2.6-14.6,5-29.7,4.5-44.4c-1.1-32,9.5-59.1,28-84.6c15.4-21.3,29.6-43.6,43.5-66c4.9-7.9,7.3-17.4,10.7-26.2
 				c1.1-2.9,1.9-6,2.8-9c0-7.3,0-14.6,0-21.9C985.7,332.4,984.5,329,983.2,325.6z"/>
 		</defs>
-		<clipPath id="SVGID_00000088829937976894375920000003021630241500072093_">
+		<clipPath id="SVGID_00000173854430483705447100000010423784808480600479_">
 			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
 		</clipPath>
-		<g style="clip-path:url(#SVGID_00000088829937976894375920000003021630241500072093_);">
-			
-				<image style="overflow:visible;enable-background:new    ;" width="4272" height="2848" xlink:href="oleg-archaeo.JPG"  transform="matrix(0.2521 0 0 0.2521 176.294 82.1351)">
-			</image>
+		<g style="clip-path:url(#SVGID_00000173854430483705447100000010423784808480600479_);">
 		</g>
 	</g>
 </g>
