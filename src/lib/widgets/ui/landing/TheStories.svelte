@@ -5,8 +5,8 @@
         <div class="about_component">
             <div class="about_content">
             <div class="margin-bottom margin-medium">
-                <h2 class="heading-xlarge">
-                    Part of  <br>  <a href='https://the-stories.vercel.app/' target="_blank" class="text-style-link">THE Stories </a> educational project
+                <h2 class="heading-xlarge ">
+                    Part of  <br>  <a href='https://the-stories.vercel.app/' target="_blank" class="text-style-link text-[#713f13]">THE Stories </a> educational project
                 </h2>
             </div>
             <div class="margin-bottom margin-xlarge">

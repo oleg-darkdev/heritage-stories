@@ -6,9 +6,9 @@
   <div class="page-padding">
     <div class="container-large">
       <div class="padding-vertical padding-huge">
-        <div class="header_component">
+        <div class="header_component"> 
           <div class="margin-bottom margin-large">
-            <h1 class="max-width-large"> THE <span class="text-style-link"> Heritage </span> Stories. </h1>
+            <h1 class="max-width-large "> THE <span class="text-style-link text-[#713f13]"> Heritage </span> Stories. </h1>
           </div>
           <div class="margin-bottom margin-large">
             <p class="text-size-medium max-width-medium"> 
@@ -39,7 +39,7 @@
 .header_testomonial{
     max-width:530px;
     color:#fff;
-    background-color:#895346;
+    background-color:#713f13;
     border-radius:50px;
     justify-content:center;
     align-items:center;

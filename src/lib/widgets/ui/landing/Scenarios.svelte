@@ -29,7 +29,7 @@
           <div class="products_info">
             <div class="">
               <div class="margin-bottom margin-medium">
-                <h2 class="heading-xlarge">THE Heritage Stories - <span class="text-style-link">boardgame with modern technologies</span> </h2>
+                <h2 class="heading-xlarge">THE Heritage Stories - <span class="text-style-link text-[#713f13]">boardgame with modern technologies</span> </h2>
               </div>
               <div class="margin-bottom margin-xlarge">
                 <div class="text-size-medium max-width-medium">
