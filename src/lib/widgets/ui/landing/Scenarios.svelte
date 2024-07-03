@@ -2,7 +2,7 @@
   import {ScenarionCard, BenefitsCard} from '$entities';
 
 
-  const scenarios = [
+  const features = [
 	{
 		title: 'Education 4.0 goals',
 		desc: `The use of gamification and technology allows the educational process to be adapted to the individual needs of students and stimulates the development of core 21st century competencies such as critical thinking, creativity and collaboration, which is completely in accordance with the goals of Education 4.0.`
@@ -46,7 +46,7 @@
         
         <div class="lg:mb-40 md:mb-40 mb-20">
           <div class="services_component">
-            {#each scenarios as scenario}
+            {#each features as scenario}
               <ScenarionCard {scenario} />
             {/each}
           </div>
